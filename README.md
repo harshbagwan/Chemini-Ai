@@ -1,9 +1,6 @@
-# Chemini AI — Redesigned Frontend
-
-A production-grade SaaS-style UI for your Context-Aware Conversational AI system.
+# Chemini AI 
 ---
 ## 📁 Project Structure
-
 ```
 chemini-ai/
 ├── backend/          
@@ -41,7 +38,7 @@ chemini-ai/
 
 ## 🚀 Setup
 
-### 1. Backend (unchanged)
+### 1. Backend 
 ```bash
 cd backend
 # Create .env file:
