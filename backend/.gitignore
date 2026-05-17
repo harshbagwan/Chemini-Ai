@@ -1,0 +1,99 @@
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Dependency Directories
+# =========================
+node_modules/
+vendor/
+
+# =========================
+# Build / Production
+# =========================
+dist/
+build/
+out/
+target/
+
+# =========================
+# Cache Files
+# =========================
+.cache/
+tmp/
+temp/
+
+# =========================
+# IDE / Editor
+# =========================
+
+# VS Code
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+
+# =========================
+# Package Managers
+# =========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+venv/
+.env/
+
+# =========================
+# C++ / CMake
+# =========================
+*.o
+*.obj
+*.exe
+*.out
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+.gradle/
+
+# =========================
+# Misc
+# =========================
+coverage/
+*.coverage
