@@ -1,15 +1,12 @@
 # Chemini AI — Redesigned Frontend
 
 A production-grade SaaS-style UI for your Context-Aware Conversational AI system.
-**The backend is 100% unchanged.** Only the frontend was redesigned.
-
 ---
-
 ## 📁 Project Structure
 
 ```
 chemini-ai/
-├── backend/          ← YOUR ORIGINAL BACKEND (zero changes)
+├── backend/          
 │   ├── app.js
 │   ├── controllers/
 │   ├── models/
@@ -18,13 +15,13 @@ chemini-ai/
 │   ├── utils/
 │   └── package.json
 │
-└── frontend/         ← REDESIGNED FRONTEND
+└── frontend/        
     ├── index.html
-    ├── vite.config.js        ← proxies /api/* → localhost:5000
+    ├── vite.config.js        ← proxies /api/* 
     ├── tailwind.config.js
     ├── src/
     │   ├── main.jsx
-    │   ├── App.jsx            ← same routes: / and /login
+    │   ├── App.jsx            ← routes:/ and /login
     │   ├── index.css          ← design tokens + glassmorphism
     │   ├── context/
     │   │   └── ThemeContext.jsx   ← dark/light mode
